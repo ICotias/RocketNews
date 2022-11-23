@@ -1,0 +1,26 @@
+body{
+    margin: 45px;
+    background-color: black;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.words{
+    color: #E1E1E6;
+    margin: 36px;
+    font-size: 25px;
+}
+
+#h1color{
+    color: rgb(4,211,97);
+    font-size: 45px;
+}
+#logo{
+    width: 389px;
+    height: 94px;
+    margin-left: 4555555px;
+
+}
+#button{
+    background-color:black ;
+    color: #8257e5 ;
+}
