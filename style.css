@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    font-family: 'League Spartan', sans-serif;
+    margin:0px;
+    display: grid;
+    grid-template-areas: 
+    "main aside"
+    ;
+
+}
+
+main{
+    grid-area: main;
+}
+
+aside{
+    grid-area: aside;
+}
+
+.words{
+    margin-left: 36px;
+    color: white;
+    font-size: 25px;
+    position: relative;
+}
+.wordsInput{
+    margin-left: 36px;
+    color: black;
+    font-size: 25px;
+    position: relative;
+}
+
+#h1color{
+    color: rgba(4,211,97,1);
+    font-size: 45px;
+}
+.logo{
+    margin-top: 40px;;
+    margin-left: 36px; ;
+    padding-bottom:80px ;
+    width: 389px;
+    height: 94px;
+    display: flex;
+}
+#button{
+    background-color:black ;
+    color: #8257e5 ;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+#readNews{
+    display: flex;
+    height:100vh;
+    width: 65vw;
+}
+#divInput{
+    flex-direction:row;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    
+
+}
+#flecha{
+    flex-direction:row ;
+    display: flex;
+    align-items: center;
+}
+#input{
+    font-size:10px ;
+    height: 25px;
+    padding: 10px;
+    border: none;
+    border-left: solid rgba(4, 211, 97, 1) 5px;
+}
+#svgArrow{
+    padding: 11.5px;
+    width: 25px;
+    color:white;
+    
+}
+#divSVG{
+    max-height: 45px;
+    background-color: #8257e5;
+
+
+}
+
